@@ -23,5 +23,5 @@
             "Aivus\\SonataMediaBundle\\ResizerBundle" : ""
         }
     },
-    "target-dir" : "Aivus/SonataMediaBundle/ResizerBundle",
+    "target-dir" : "Aivus/SonataMediaBundle/ResizerBundle"
 }
