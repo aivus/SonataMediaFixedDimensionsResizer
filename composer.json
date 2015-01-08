@@ -1,0 +1,27 @@
+{
+    "name" : "aivus/sonata-media-fixed-dimensions-resizer",
+    "description" : "Sonata Media Bundle Resizer with fixed aspect ratio",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Ilya Antipenko",
+        "email" : "ilya@antipenko.pp.ua"
+    },
+    {
+        "name" : "Nicolas Ricci"
+    }],
+    "keywords" : [
+        "fixed aspect ration", "sonata media bundle resizer", "bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "sonata-project/media-bundle" : "*"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Aivus\\SonataMediaBundle\\ResizerBundle" : ""
+        }
+    },
+    "target-dir" : "Aivus/SonataMediaBundle/ResizerBundle",
+}
