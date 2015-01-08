@@ -1,0 +1,8 @@
+services:
+    aivus.sonata.media.resizer.fixedDimensions.inset:
+        class:  Aivus\SonataMediaBundle\ResizerBundle\Resizer\FixedDimensionsResizer
+        arguments: [@sonata.media.adapter.image.gd, 'inset', @sonata.media.metadata.proxy]
+
+    aivus.sonata.media.resizer.fixedDimensions.outbound:
+        class:  Aivus\SonataMediaBundle\ResizerBundle\Resizer\FixedDimensionsResizer
+        arguments: [@sonata.media.adapter.image.gd, 'outbound', @sonata.media.metadata.proxy]
